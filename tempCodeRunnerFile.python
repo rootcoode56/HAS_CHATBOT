@@ -1,0 +1,127 @@
+import json, requests, re, os
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
+from sentence_transformers import SentenceTransformer
+from openai import OpenAI
+
+# Initialize ChatGPT API
+client = OpenAI(api_key=os.environ["sk-svcacct-RNZYb8DQHtSOupP_rdlCyPCjXSvtpDay4IZ61ZMZ4sGCbo2nzx8HcTAT8SmYNwpRZ7KnrZE9z8T3BlbkJJfamIVcFpMn0HmImoT4X443tQzxBcdcYmz3HyjcPG13wRzCGpX1QGpxhGVLkryRcsl3i660Bq4A"])
+
+# -------- CONFIG ----------
+FIREBASE_BASE = "https://hospital-access-system-d902d-default-rtdb.firebaseio.com"
+DOCSINFO_PATH = "DocsInfoNew.json"   # uploaded file
+MODEL_NAME = "gpt-4.1-mini"
+EMBED_MODEL = "all-MiniLM-L6-v2"
+# --------------------------
+
+# Load doctor data
+with open(DOCSINFO_PATH, "r", encoding="utf-8") as f:
+    doctors_json = json.load(f)
+
+doctors = [v for k, v in doctors_json.items()]
+
+# Build embeddings
+embedder = SentenceTransformer(EMBED_MODEL)
+doctor_texts = []
+
+for d in doctors:
+    parts = []
+    for field in ("Specialist", "Name", "Speciality", "Chamber & Location"):
+        if d.get(field):
+            parts.append(str(d[field]))
+    doctor_texts.append(" || ".join(parts))
+
+doctor_embs = embedder.encode(doctor_texts, convert_to_numpy=True)
+
+# -------- HELPERS ----------
+def fetch_symptoms_db():
+    url = FIREBASE_BASE.rstrip("/") + "/symptoms.json"
+    r = requests.get(url)
+    if r.status_code == 200:
+        return r.json() or {}
+    return {}
+
+def extract_symptoms_from_text(text):
+    text = text.lower()
+    candidates = re.findall(r"[a-z]{3,}(?: [a-z]{3,})?", text)
+    out = []
+    for c in candidates:
+        if c not in out and len(out) <= 20:
+            out.append(c)
+    return out
+
+def predict_conditions_tfdf(text):
+    # Placeholder — replace later
+    return {"Common Cold": 0.45, "Flu": 0.35, "Allergy": 0.20}
+
+def recommend_doctors(query, top_k=5):
+    q_emb = embedder.encode([query], convert_to_numpy=True)
+    sims = cosine_similarity(q_emb, doctor_embs)[0]
+    idxs = np.argsort(-sims)[:top_k]
+
+    results = []
+    for i in idxs:
+        doc = doctors[i].copy()
+        doc["_score"] = float(sims[i])
+        results.append(doc)
+    return results
+
+def build_structured_result(user_text):
+    symptoms = extract_symptoms_from_text(user_text)
+    firebase_symptoms = fetch_symptoms_db()
+    tfdf_predictions = predict_conditions_tfdf(user_text)
+    doctors_found = recommend_doctors(user_text)
+
+    return {
+        "symptoms_extracted": symptoms,
+        "firebase_symptoms": firebase_symptoms, 
+        "possible_conditions_not_diagnosis": tfdf_predictions,
+        "doctor_recommendations": doctors_found,
+        "safety_note": (
+            "This is not a medical diagnosis. For actual medical advice, "
+            "please consult a licensed doctor."
+        )
+    }
+
+def chatgpt_response(structured, user_message):
+    system_prompt = """
+You are MediGuide AI, a safe medical guidance assistant.
+You NEVER diagnose or give medical treatment.
+
+Your tasks:
+- Understand symptoms
+- Suggest possible conditions (not diagnostic)
+- Recommend suitable doctors
+- Maintain safety and disclaimers
+"""
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user",
+            "content": (
+            f"User message: {user_message}\n\n"
+            f"Structured data:\n{json.dumps(structured, indent=2)}\n\n"
+            "Give a helpful, short reply."
+        )}
+    ]
+
+    response = client.chat.completions.create(
+        model=MODEL_NAME,
+        messages=messages
+    )
+    return response.choices[0].message.content
+
+# -------- CHAT LOOP (Colab environment) ----------
+def chat():
+    print("🩺 MediGuide AI — Colab Chat")
+    print("Type 'exit' to stop.\n")
+
+    while True:
+        user_input = input("Patient: ")
+        if user_input.lower().strip() == "exit":
+            break
+        
+        structured = build_structured_result(user_input)
+        reply = chatgpt_response(structured, user_input)
+        print("\nChatBot:", reply, "\n")
+
+chat()

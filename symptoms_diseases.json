@@ -1,0 +1,1109 @@
+[
+  {
+    "disease": "1. Asthma",
+    "symptoms": [
+      "Shortness of breath",
+      "Wheezing",
+      "Chest tightness",
+      "Coughing, especially at night"
+    ]
+  },
+  {
+    "disease": "2. Alzheimer’s Disease",
+    "symptoms": [
+      "Memory loss",
+      "Confusion with time or place",
+      "Difficulty in solving problems",
+      "Mood and behavior changes"
+    ]
+  },
+  {
+    "disease": "3. Appendicitis",
+    "symptoms": [
+      "Pain in lower right abdomen",
+      "Nausea and vomiting",
+      "Loss of appetite",
+      "Fever"
+    ]
+  },
+  {
+    "disease": "4. Anemia",
+    "symptoms": [
+      "Fatigue",
+      "Pale skin",
+      "Shortness of breath",
+      "Dizziness"
+    ]
+  },
+  {
+    "disease": "5. Arthritis",
+    "symptoms": [
+      "Joint pain",
+      "Swelling in joints",
+      "Stiffness, especially in the morning",
+      "Limited joint movement"
+    ]
+  },
+  {
+    "disease": "6. Bronchitis",
+    "symptoms": [
+      "Persistent cough",
+      "Mucus production",
+      "Chest discomfort",
+      "Fatigue",
+      "Mild fever and chills"
+    ]
+  },
+  {
+    "disease": "7. Bacterial Meningitis",
+    "symptoms": [
+      "Sudden high fever",
+      "Stiff neck",
+      "Severe headache",
+      "Nausea or vomiting",
+      "Sensitivity to light"
+    ]
+  },
+  {
+    "disease": "8. Bell’s Palsy",
+    "symptoms": [
+      "Sudden weakness or paralysis on one side of the face",
+      "Drooping mouth or eyelid",
+      "Loss of taste",
+      "Tearing or drooling"
+    ]
+  },
+  {
+    "disease": "9. Beriberi",
+    "symptoms": [
+      "Tingling or loss of sensation in hands and feet",
+      "Muscle weakness",
+      "Difficulty walking",
+      "Heart problems"
+    ]
+  },
+  {
+    "disease": "10. Boils",
+    "symptoms": [
+      "Red, swollen lump on the skin",
+      "Pain and warmth around the lump",
+      "Pus formation",
+      "Fever"
+    ]
+  },
+  {
+    "disease": "11. Chickenpox",
+    "symptoms": [
+      "Red, itchy rashes that turn into blisters",
+      "Fever",
+      "Fatigue and tiredness",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "disease": "12. Cholera",
+    "symptoms": [
+      "Severe watery diarrhea",
+      "Vomiting",
+      "Rapid dehydration",
+      "Muscle cramps"
+    ]
+  },
+  {
+    "disease": "13. Common Cold",
+    "symptoms": [
+      "Runny or stuffy nose",
+      "Sneezing",
+      "Sore throat",
+      "Mild fever",
+      "Coughing"
+    ]
+  },
+  {
+    "disease": "14. Conjunctivitis",
+    "symptoms": [
+      "Red or pink eyes",
+      "Itchy or burning sensation",
+      "Watery or sticky discharge",
+      "Swollen eyelids"
+    ]
+  },
+  {
+    "disease": "15. COVID-19",
+    "symptoms": [
+      "Fever",
+      "Dry cough",
+      "Shortness of breath",
+      "Fatigue",
+      "Loss of taste or smell"
+    ]
+  },
+  {
+    "disease": "16. Cancer",
+    "symptoms": [
+      "Unexplained weight loss",
+      "Persistent fatigue",
+      "Lumps or swelling",
+      "Pain that doesn’t go away"
+    ]
+  },
+  {
+    "disease": "17. Dengue Fever",
+    "symptoms": [
+      "High fever",
+      "Severe headache",
+      "Pain behind the eyes",
+      "Joint and muscle pain",
+      "Skin rash",
+      "Nausea and vomiting"
+    ]
+  },
+  {
+    "disease": "18. Diabetes",
+    "symptoms": [
+      "Frequent urination",
+      "Excessive thirst",
+      "Unexplained weight loss",
+      "Fatigue",
+      "Blurred vision"
+    ]
+  },
+  {
+    "disease": "19. Diarrhea",
+    "symptoms": [
+      "Frequent loose or watery stools",
+      "Abdominal cramps",
+      "Bloating",
+      "Nausea or vomiting",
+      "Dehydration"
+    ]
+  },
+  {
+    "disease": "20. Diphtheria",
+    "symptoms": [
+      "Sore throat",
+      "Thick gray or white coating on throat/tonsils",
+      "Fever",
+      "Difficulty breathing or swallowing",
+      "Swollen glands in the neck"
+    ]
+  },
+  {
+    "disease": "21. Depression",
+    "symptoms": [
+      "Persistent sadness",
+      "Loss of interest in daily activities",
+      "Sleep problems",
+      "Fatigue or low energy",
+      "Thoughts of self-harm"
+    ]
+  },
+  {
+    "disease": "22. Ebola Virus Disease",
+    "symptoms": [
+      "Sudden high fever",
+      "Severe headache",
+      "Muscle pain and weakness",
+      "Vomiting and diarrhea",
+      "Internal and external bleeding",
+      "Skin rash"
+    ]
+  },
+  {
+    "disease": "23. Eczema",
+    "symptoms": [
+      "Dry, itchy skin",
+      "Red or inflamed patches",
+      "Crusting or oozing",
+      "Thickened skin"
+    ]
+  },
+  {
+    "disease": "24. Encephalitis",
+    "symptoms": [
+      "Fever",
+      "Headache",
+      "Confusion or disorientation",
+      "Seizures",
+      "Sensitivity to light",
+      "Neck stiffness"
+    ]
+  },
+  {
+    "disease": "25. Epilepsy",
+    "symptoms": [
+      "Repeated seizures or convulsions",
+      "Temporary confusion",
+      "Loss of consciousness",
+      "Staring spells"
+    ]
+  },
+  {
+    "disease": "26. Eye Flu / Viral Conjunctivitis",
+    "symptoms": [
+      "Redness in the eye",
+      "Watery discharge",
+      "Itching or irritation",
+      "Swollen eyelids"
+    ]
+  },
+  {
+    "disease": "27. Flu (Influenza)",
+    "symptoms": [
+      "High fever",
+      "Chills and body aches",
+      "Sore throat",
+      "Runny or stuffy nose",
+      "Dry cough",
+      "Fatigue and weakness"
+    ]
+  },
+  {
+    "disease": "28. Food Poisoning",
+    "symptoms": [
+      "Nausea and vomiting",
+      "Diarrhea",
+      "Abdominal pain or cramps",
+      "Fever",
+      "Dehydration"
+    ]
+  },
+  {
+    "disease": "29. Fibromyalgia",
+    "symptoms": [
+      "Widespread muscle pain",
+      "Fatigue",
+      "Sleep disturbances",
+      "Memory and concentration issues (\"brain fog\")",
+      "Headaches"
+    ]
+  },
+  {
+    "disease": "30. Folate Deficiency Anemia",
+    "symptoms": [
+      "Fatigue",
+      "Pale skin",
+      "Shortness of breath",
+      "Irritability",
+      "Mouth sores"
+    ]
+  },
+  {
+    "disease": "31. Fracture",
+    "symptoms": [
+      "Sudden pain at the injury site",
+      "Swelling and bruising",
+      "Inability to move the affected limb",
+      "Deformity in shape"
+    ]
+  },
+  {
+    "disease": "32. Gallstones",
+    "symptoms": [
+      "Sudden pain in the upper right abdomen",
+      "Nausea and vomiting",
+      "Indigestion, especially after eating fatty foods",
+      "Bloating",
+      "Back pain between shoulder blades"
+    ]
+  },
+  {
+    "disease": "33. Gastritis",
+    "symptoms": [
+      "Burning sensation in the upper abdomen",
+      "Nausea or vomiting",
+      "Loss of appetite",
+      "Bloating and belching",
+      "Indigestion"
+    ]
+  },
+  {
+    "disease": "34. Gastroenteritis",
+    "symptoms":[
+      "Diarrhea",
+      "Vomiting",
+      "Fever",
+      "Abdominal cramps",
+      "Dehydration"
+    ]
+  },
+  {
+    "disease": "35. Glaucoma",
+    "symptoms": [
+      "Gradual loss of vision",
+      "Eye pain",
+      "Halos around lights",
+      "Redness of the eye",
+      "Sudden blurred vision"
+    ]
+  },
+  {
+    "disease": "36. Gout",
+    "symptoms": [
+      "Sudden severe joint pain, especially in the big toe",
+      "Swelling and redness in joints",
+      "Warmth and tenderness"
+    ]
+  },
+  {
+    "disease": "37. Hepatitis",
+    "symptoms": [
+      "Jaundice",
+      "Fatigue",
+      "Abdominal pain, especially in the upper right side",
+      "Nausea and vomiting",
+      "Dark-colored urine"
+    ]
+  },
+  {
+    "disease": "38. Hypertension",
+    "symptoms": [
+      "Headaches",
+      "Dizziness",
+      "Nosebleeds",
+      "Blurred vision",
+      "Shortness of breath"
+    ]
+  },
+  {
+    "disease": "39. Hypotension",
+    "symptoms": [
+      "Dizziness or light-headedness",
+      "Fainting",
+      "Blurred vision",
+      "Fatigue",
+      "Cold, pale skin"
+    ]
+  },
+  {
+    "disease": "40. HIV/AIDS",
+    "symptoms": [
+      "Fever",
+      "Sore throat",
+      "Rash",
+      "Swollen lymph nodes"
+    ]
+  },
+  {
+    "disease": "41. Advanced stage (AIDS):",
+    "symptoms": [
+      "Extreme weight loss",
+      "Recurrent infections",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "42. Hernia",
+    "symptoms": [
+      "A visible lump or bulge, especially when standing",
+      "Pain or discomfort in the affected area",
+      "Heaviness or pressure feeling",
+      "Worse pain when bending or lifting"
+    ]
+  },
+  {
+    "disease": "43. Influenza",
+    "symptoms": [
+      "High fever",
+      "Dry cough",
+      "Sore throat",
+      "Runny or stuffy nose",
+      "Muscle or body aches",
+      "Fatigue",
+      "Chills"
+    ]
+  },
+  {
+    "disease": "44. Insomnia",
+    "symptoms": [
+      "Difficulty falling asleep",
+      "Waking up often during the night",
+      "Feeling tired after waking up",
+      "Irritability or mood changes",
+      "Difficulty concentrating"
+    ]
+  },
+  {
+    "disease": "45. Irritable Bowel Syndrome (IBS) –",
+    "symptoms": [
+      "Abdominal pain or cramping",
+      "Bloating",
+      "Diarrhea or constipation",
+      "Mucus in stool"
+    ]
+  },
+  {
+    "disease": "46. Impetigo",
+    "symptoms": [
+      "Red sores around the mouth, nose, or hands",
+      "Sores that burst and develop honey-colored crusts",
+      "Itching",
+      "Spreads easily"
+    ]
+  },
+  {
+    "disease": "47. Iron Deficiency Anemia",
+    "symptoms": [
+      "Pale skin",
+      "Fatigue",
+      "Dizziness or lightheadedness",
+      "Cold hands and feet"
+    ]
+  },
+  {
+    "disease": "48. Jaundice",
+    "symptoms": [
+      "Yellowing of the skin and eyes",
+      "Dark urine",
+      "Pale stools",
+      "Fatigue",
+      "Abdominal pain",
+      "Loss of appetite",
+      "Nausea and vomiting"
+    ]
+  },
+  {
+    "disease": "49. Juvenile Arthritis",
+    "symptoms": [
+      "Joint swelling",
+      "Pain and stiffness",
+      "Fever",
+      "Fatigue",
+      "Rash",
+      "Reduced physical activity"
+    ]
+  },
+  {
+    "disease": "50. Japanese Encephalitis",
+    "symptoms": [
+      "High fever",
+      "Headache",
+      "Stiff neck",
+      "Confusion or disorientation",
+      "Seizures",
+      "Coma"
+    ]
+  },
+  {
+    "disease": "51. Kidney Stones",
+    "symptoms": [
+      "Severe pain in the side and back, below the ribs",
+      "Pain during urination",
+      "Pink, red, or brown urine",
+      "Frequent urination",
+      "Nausea and vomiting",
+      "Fever and chills"
+    ]
+  },
+  {
+    "disease": "52. Kawasaki Disease",
+    "symptoms": [
+      "High fever lasting more than 5 days",
+      "Rash all over the body",
+      "Swollen hands and feet",
+      "Red eyes without discharge",
+      "Swollen lymph nodes in the neck",
+      "Cracked lips and strawberry tongue"
+    ]
+  },
+  {
+    "disease": "53. Keratitis",
+    "symptoms": [
+      "Eye redness",
+      "Eye pain",
+      "Blurred vision",
+      "Sensitivity to light",
+      "Excessive tearing"
+    ]
+  },
+  {
+    "disease": "54. Kwashiorkor",
+    "symptoms": [
+      "Swelling in the legs, feet, and belly",
+      "Fatigue",
+      "Irritability",
+      "Thinning hair",
+      "Skin problems like peeling or rash",
+      "Slow growth"
+    ]
+  },
+  {
+    "disease": "55. Leukemia",
+    "symptoms": [
+      "Fatigue",
+      "Frequent infections",
+      "Easy bruising or bleeding",
+      "Swollen lymph nodes",
+      "Weight loss",
+      "Bone or joint pain"
+    ]
+  },
+  {
+    "disease": "56. Laryngitis",
+    "symptoms": [
+      "Hoarseness or loss of voice",
+      "Sore throat",
+      "Dry cough",
+      "Difficulty swallowing",
+      "Fever"
+    ]
+  },
+  {
+    "disease": "57. Lyme Disease",
+    "symptoms": [
+      "Bull’s-eye rash",
+      "Fever and chills",
+      "Muscle and joint pain",
+      "Fatigue",
+      "Headache"
+    ]
+  },
+  {
+    "disease": "58. Liver Cirrhosis",
+    "symptoms": [
+      "Fatigue",
+      "Easy bruising or bleeding",
+      "Jaundice",
+      "Swelling in legs and abdomen",
+      "Itchy skin",
+      "Confusion or difficulty thinking"
+    ]
+  },
+  {
+    "disease": "59. Lymphoma",
+    "symptoms": [
+      "Swollen lymph nodes",
+      "Fever",
+      "Night sweats",
+      "Weight loss",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "60. Malaria",
+    "symptoms": [
+      "High fever with chills",
+      "Sweating",
+      "Headache",
+      "Muscle pain",
+      "Nausea and vomiting",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "61. Measles",
+    "symptoms": [
+      "High fever",
+      "Red rash all over the body",
+      "Cough",
+      "Runny nose",
+      "Red, watery eyes"
+    ]
+  },
+  {
+    "disease": "62. Migraine",
+    "symptoms": [
+      "Severe, throbbing headache",
+      "Nausea and vomiting",
+      "Sensitivity to light and sound",
+      "Visual disturbances like seeing flashes of light"
+    ]
+  },
+  {
+    "disease": "63. Multiple Sclerosis",
+    "symptoms": [
+      "Numbness or weakness in limbs",
+      "Difficulty walking",
+      "Vision problems",
+      "Fatigue",
+      "Muscle spasms"
+    ]
+  },
+  {
+    "disease": "64. Mumps",
+    "symptoms": [
+      "Swelling and pain in the salivary glands",
+      "Fever",
+      "Headache",
+      "Muscle aches",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "65. Nausea",
+    "symptoms": [
+      "Feeling like vomiting",
+      "Uneasy or upset stomach",
+      "Sweating",
+      "Dizziness",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "disease": "66. Neuralgia",
+    "symptoms": [
+      "Sharp, shooting pain along a nerve",
+      "Tingling or numbness",
+      "Muscle weakness in the affected area",
+      "Sensitivity to touch"
+    ]
+  },
+  {
+    "disease": "67. Night Blindness",
+    "symptoms": [
+      "Difficulty seeing in low light or darkness",
+      "Slow adjustment of eyes from light to dark",
+      "Poor vision at night"
+    ]
+  },
+  {
+    "disease": "68. Norovirus Infection",
+    "symptoms": [
+      "Sudden onset of vomiting",
+      "Watery diarrhea",
+      "Stomach cramps",
+      "Low-grade fever",
+      "Muscle aches"
+    ]
+  },
+  {
+    "disease": "69. Necrosis",
+    "symptoms": [
+      "Severe pain at the affected site",
+      "Blackening or discoloration of skin",
+      "Swelling and redness",
+      "Loss of function in the affected area"
+    ]
+  },
+  {
+    "disease": "70. Osteoarthritis",
+    "symptoms": [
+      "Joint pain and stiffness",
+      "Swelling around the joints",
+      "Reduced range of motion",
+      "Tenderness",
+      "Grinding sensation in joints"
+    ]
+  },
+  {
+    "disease": "71. Osteoporosis",
+    "symptoms": [
+      "Back pain due to fractured or collapsed vertebrae",
+      "Loss of height over time",
+      "Stooped posture",
+      "Bone fractures that occur easily"
+    ]
+  },
+  {
+    "disease": "72. Otitis Media",
+    "symptoms": [
+      "Ear pain",
+      "Fluid drainage from the ear",
+      "Hearing loss",
+      "Fever",
+      "Irritability in children"
+    ]
+  },
+  {
+    "disease": "73. Obesity",
+    "symptoms": [
+      "Excessive body fat",
+      "Shortness of breath",
+      "Increased sweating",
+      "Snoring",
+      "Fatigue",
+      "Difficulty in physical activity"
+    ]
+  },
+  {
+    "disease": "74. Oral Thrush",
+    "symptoms": [
+      "White patches inside the mouth or on the tongue",
+      "Redness or soreness inside the mouth",
+      "Difficulty swallowing",
+      "Cracking at the corners of the mouth"
+    ]
+  },
+  {
+    "disease": "75. Pneumonia",
+    "symptoms": [
+      "Cough, sometimes with phlegm or pus",
+      "Fever and chills",
+      "Shortness of breath",
+      "Chest pain when breathing or coughing",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "76. Parkinson’s Disease",
+    "symptoms": [
+      "Tremors or shaking, usually in hands",
+      "Slowness of movement",
+      "Muscle stiffness",
+      "Impaired balance and coordination",
+      "Speech changes"
+    ]
+  },
+  {
+    "disease": "77. Psoriasis",
+    "symptoms": [
+      "Red patches of skin covered with silvery scales",
+      "Itching and burning sensation",
+      "Dry, cracked skin that may bleed",
+      "Thickened nails"
+    ]
+  },
+  {
+    "disease": "78. Pulmonary Tuberculosis",
+    "symptoms": [
+      "Persistent cough lasting more than 3 weeks",
+      "Coughing up blood",
+      "Weight loss",
+      "Night sweats",
+      "Fever"
+    ]
+  },
+  {
+    "disease": "79. Panic Disorder",
+    "symptoms": [
+      "Sudden episodes of intense fear or discomfort",
+      "Rapid heartbeat",
+      "Sweating",
+      "Shortness of breath",
+      "Dizziness or lightheadedness"
+    ]
+  },
+  {
+    "disease": "80. Q Fever",
+    "symptoms": [
+      "High fever",
+      "Severe headache",
+      "Muscle aches",
+      "Chills and sweats",
+      "Fatigue",
+      "Dry cough"
+    ]
+  },
+  {
+    "disease": "81. Quadriplegia",
+    "symptoms": [
+      "Loss of movement in all four limbs",
+      "Loss of sensation below the neck",
+      "Difficulty breathing",
+      "Muscle stiffness or spasms"
+    ]
+  },
+  {
+    "disease": "82. Stroke",
+    "symptoms": [
+      "Sudden numbness or weakness in face, arm, or leg, especially on one side of the body",
+      "Confusion or trouble speaking",
+      "Trouble seeing in one or both eyes",
+      "Difficulty walking, dizziness, loss of balance",
+      "Severe headache with no known cause"
+    ]
+  },
+  {
+    "disease": "83. Sinusitis",
+    "symptoms": [
+      "Nasal congestion or blockage",
+      "Facial pain or pressure, especially around the eyes and forehead",
+      "Thick nasal discharge",
+      "Headache",
+      "Reduced sense of smell",
+      "Cough"
+    ]
+  },
+  {
+    "disease": "84. Schizophrenia",
+    "symptoms": [
+      "Hallucinations",
+      "Delusions",
+      "Disorganized thinking",
+      "Lack of motivation",
+      "Social withdrawal"
+    ]
+  },
+  {
+    "disease": "85. Skin Cancer",
+    "symptoms": [
+      "New or changing moles or spots on the skin",
+      "Sores that do not heal",
+      "Itching or tenderness",
+      "Changes in skin color or texture"
+    ]
+  },
+  {
+    "disease": "86. Scarlet Fever",
+    "symptoms": [
+      "Red rash that feels like sandpaper",
+      "High fever",
+      "Sore throat",
+      "Strawberry tongue",
+      "Headache"
+    ]
+  },
+  {
+    "disease": "87. Tuberculosis",
+    "symptoms": [
+      "Persistent cough lasting more than 3 weeks",
+      "Coughing up blood",
+      "Weight loss",
+      "Night sweats",
+      "Fever",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "88. Typhoid Fever",
+    "symptoms": [
+      "Prolonged high fever",
+      "Weakness and fatigue",
+      "Abdominal pain",
+      "Diarrhea or constipation",
+      "Headache",
+      "Loss of appetite"
+    ]
+  },
+  {
+    "disease": "89. Tetanus",
+    "symptoms": [
+      "Muscle stiffness and spasms",
+      "Jaw cramping or lockjaw",
+      "Difficulty swallowing",
+      "Fever",
+      "Sweating"
+    ]
+  },
+  {
+    "disease": "90. Thalassemia",
+    "symptoms": [
+      "Fatigue",
+      "Pale or yellowish skin",
+      "Slow growth",
+      "Abdominal swelling",
+      "Dark urine"
+    ]
+  },
+  {
+    "disease": "91. Tonsillitis",
+    "symptoms": [
+      "Sore throat",
+      "Red and swollen tonsils",
+      "Difficulty swallowing",
+      "Fever",
+      "Bad breath"
+    ]
+  },
+  {
+    "disease": "92. Urinary Tract Infection (UTI)",
+    "symptoms": [
+      "Burning sensation during urination",
+      "Frequent urge to urinate",
+      "Cloudy or strong-smelling urine",
+      "Lower abdominal pain",
+      "Fever"
+    ]
+  },
+  {
+    "disease": "93. Ulcer",
+    "symptoms": [
+      "Burning stomach pain",
+      "Bloating and heartburn",
+      "Nausea or vomiting",
+      "Loss of appetite",
+      "Weight loss"
+    ]
+  },
+  {
+    "disease": "94. Urticaria",
+    "symptoms": [
+      "Raised, itchy welts on the skin",
+      "Red or skin-colored bumps",
+      "Swelling of lips, eyelids, or throat",
+      "Burning or stinging sensation"
+    ]
+  },
+  {
+    "disease": "95. Ulcerative Colitis",
+    "symptoms": [
+      "Abdominal pain and cramping",
+      "Diarrhea, often with blood or pus",
+      "Urgency to defecate",
+      "Fatigue",
+      "Weight loss"
+    ]
+  },
+  {
+    "disease": "96. Uveitis",
+    "symptoms": [
+      "Eye redness",
+      "Eye pain",
+      "Blurred vision",
+      "Sensitivity to light",
+      "Floaters in vision"
+    ]
+  },
+  {
+    "disease": "97. Viral Infection",
+    "symptoms": [
+      "Fever",
+      "Fatigue",
+      "Muscle aches",
+      "Cough and sore throat",
+      "Runny or stuffy nose"
+    ]
+  },
+  {
+    "disease": "98. Varicose Veins",
+    "symptoms": [
+      "Enlarged, twisted veins visible under the skin",
+      "Aching or heavy feeling in the legs",
+      "Swelling in lower legs",
+      "Itching around veins",
+      "Skin discoloration near the veins"
+    ]
+  },
+  {
+    "disease": "99. Vitiligo",
+    "symptoms": [
+      "Patchy loss of skin color",
+      "Premature whitening or graying of hair",
+      "Loss of color in the mucous membranes",
+      "Changes in retina color"
+    ]
+  },
+  {
+    "disease": "100. Vaginitis",
+    "symptoms": [
+      "Vaginal itching and irritation",
+      "Abnormal vaginal discharge",
+      "Pain during urination or intercourse",
+      "Foul odor"
+    ]
+  },
+  {
+    "disease": "101. Viral Hepatitis",
+    "symptoms": [
+      "Jaundice",
+      "Fatigue",
+      "Abdominal pain",
+      "Dark urine",
+      "Nausea and vomiting"
+    ]
+  },
+  {
+    "disease": "102. Whooping Cough",
+    "symptoms": [
+      "Severe coughing fits followed by a “whooping” sound",
+      "Runny nose",
+      "Nasal congestion",
+      "Red or blue face during coughing",
+      "Vomiting after coughing"
+    ]
+  },
+  {
+    "disease": "102. Wilson’s Disease",
+    "symptoms": [
+      "Fatigue",
+      "Yellowing of skin and eyes",
+      "Tremors or uncontrolled movements",
+      "Difficulty speaking or swallowing",
+      "Behavioral changes"
+    ]
+  },
+  {
+    "disease": "103. Wart",
+    "symptoms": [
+      "Small, rough growths on the skin",
+      "Usually painless but may cause discomfort",
+      "May occur anywhere on the body"
+    ]
+  },
+  {
+    "disease": "104. West Nile Virus Infection",
+    "symptoms": [
+      "Fever",
+      "Headache",
+      "Body aches",
+      "Skin rash",
+      "Swollen lymph nodes",
+      "In severe cases, neurological symptoms like confusion or seizures"
+    ]
+  },
+  {
+    "disease": "105. Whipple’s Disease",
+    "symptoms": [
+      "Weight loss",
+      "Diarrhea",
+      "Joint pain",
+      "Abdominal pain",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "106. Xeroderma Pigmentosum",
+    "symptoms": [
+      "Extreme sensitivity to sunlight",
+      "Severe sunburns with minimal exposure",
+      "Dry, scaly skin",
+      "Dark spots or pigmentation on the skin",
+      "Increased risk of skin cancers"
+    ]
+  },
+  {
+    "disease": "107. X-linked Agammaglobulinemia",
+    "symptoms": [
+      "Frequent bacterial infections",
+      "Poor antibody production",
+      "Recurrent respiratory infections",
+      "Chronic diarrhea",
+      "Failure to thrive in infants"
+    ]
+  },
+  {
+    "disease": "108. Yellow Fever",
+    "symptoms": [
+      "High fever",
+      "Chills",
+      "Severe headache",
+      "Muscle pain",
+      "Nausea and vomiting",
+      "Jaundice",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "109. Yaws",
+    "symptoms": [
+      "Skin lesions and ulcers",
+      "Swollen lymph nodes",
+      "Bone pain",
+      "Fever",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "110. Zika Virus Infection",
+    "symptoms": [
+      "Mild fever",
+      "Rash",
+      "Joint pain",
+      "Red eyes",
+      "Headache",
+      "Muscle pain",
+      "Fatigue"
+    ]
+  },
+  {
+    "disease": "111. Zinc Deficiency",
+    "symptoms": [
+      "Poor wound healing",
+      "Hair loss",
+      "Loss of appetite",
+      "Impaired immune function",
+      "Skin rashes",
+      "Delayed growth in children"
+    ]
+  }
+]
