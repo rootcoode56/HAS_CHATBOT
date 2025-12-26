@@ -100,7 +100,7 @@ pip install torch transformers sentence-transformers
 ## ▶️ How to Run
 
 ```bash
-python minn_gpu.py
+python main.py
 ```
 
 Then enter patient symptoms in free text:
@@ -188,5 +188,3 @@ Always consult a qualified healthcare professional for diagnosis and treatment.
 
 **Qm Asif Tanjim**
 CSE Student | 2211402042 | North South University
-
-Just tell me.
