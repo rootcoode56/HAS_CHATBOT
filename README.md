@@ -186,5 +186,5 @@ Always consult a qualified healthcare professional for diagnosis and treatment.
 
 ## 👨‍💻 Author
 
-**Qm Asif Tanjim**
-CSE Student | 2211402042 | North South University
+- **Qm Asif Tanjim**
+- **Nowren Mahjabin Khan**
