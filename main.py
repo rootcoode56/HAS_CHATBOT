@@ -22,6 +22,8 @@ with open(SYMPTOM_DISEASE_PATH, "r", encoding="utf-8") as f:
 with open(DOCTOR_MAPPING_PATH, "r", encoding="utf-8") as f:
     doctor_map = json.load(f)
 
+
+## Nowren's part
 # -------------------- Disease → Specialist Mapping --------------------
 DISEASE_TO_SPECIALIST = {
     "asthma": "pulmonologist",
@@ -74,6 +76,8 @@ llm = pipeline(
 
 print("Language model loaded.")
 
+
+## Asif Tanjim's part
 # -------------------- Utility Functions --------------------
 def normalize(text):
     return text.strip().lower()
@@ -161,6 +165,7 @@ def get_doctors_for_disease(disease_name, max_results=3):
 
     return results
 
+## Tauhid's part
 # -------------------- Chat Loop --------------------
 def chat():
     print("\n⚕⚕ SAFE Constrained Medical Chatbot")

@@ -48,6 +48,8 @@ def predict_disease(user_symptom_text):
 def get_doctor_for_disease(disease):
     return doctor_map.get(disease, "General Physician")
 
+
+## API call function
 # -------------------- Gemini API Chat --------------------
 def call_gemini_api(prompt):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={GEMINI_API_KEY}"
